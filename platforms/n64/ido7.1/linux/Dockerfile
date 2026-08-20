@@ -7,7 +7,7 @@ RUN mkdir -p /compilers/n64/ido7.1
 
 RUN wget -O ido-7.1-recomp-linux.tar.gz "https://github.com/decompals/ido-static-recomp/releases/download/v1.2/ido-7.1-recomp-linux.tar.gz"
 RUN tar xvzf ido-7.1-recomp-linux.tar.gz -C /compilers/n64/ido7.1
-RUN wget -O /compilers/n64/ido7.1/cc-irix4 "https://gist.githubusercontent.com/jtl3d/a3d54c4d2eadfedc7d4287e489dba902/raw/6e8927f342e8298f529f92b5068d3032b5d8d93b/cc-irix4"
+RUN wget -O /compilers/n64/ido7.1/cc-irix4 "https://gist.githubusercontent.com/jtl3d/a3d54c4d2eadfedc7d4287e489dba902/raw/05da0ee27610d59dea29475fbd48e4386ca70db8/cc-irix4"
 
 RUN chown -R root:root /compilers/n64/ido7.1/
 RUN chmod +x /compilers/n64/ido7.1/*
